@@ -19,5 +19,6 @@
     "liveSassCompile.settings.includeItems": [
         "assets/style/style.scss",
     ],
-    "git.showPushSuccessNotification": true
+    "git.showPushSuccessNotification": true,
+    "git.postCommitCommand": "push"
 }
