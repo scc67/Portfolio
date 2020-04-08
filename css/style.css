@@ -1,0 +1,10 @@
+.navbar--no-padding-until-large {
+  padding: 0rem 1rem;
+}
+
+@media (min-width: 992px) {
+  .navbar--no-padding-until-large {
+    padding: 1rem 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
