@@ -1,9 +1,13 @@
-.navbar {
-    &--no-padding-until-large {
-        padding: 0rem 1rem;
+* {
+    box-sizing: border-box;
+}
 
-        @include atLarge {
-            padding: 1rem 1rem;
-        }
-    }
+html {
+    font-size: 10px;
+    scroll-padding-top: 9rem;
+}
+
+body {
+    display: block;
+    margin: 0;
 }

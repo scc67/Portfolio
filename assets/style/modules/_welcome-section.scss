@@ -1,0 +1,8 @@
+.welcome-section {
+    background-color: tomato;
+
+    @include atMedium {
+        height: 100vh;
+    }
+
+}

@@ -1,10 +1,30 @@
-.navbar--no-padding-until-large {
-  padding: 0rem 1rem;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-@media (min-width: 992px) {
-  .navbar--no-padding-until-large {
-    padding: 1rem 1rem;
+html {
+  font-size: 10px;
+  scroll-padding-top: 9rem;
+}
+
+body {
+  display: block;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+}
+
+.welcome-section {
+  background-color: tomato;
+}
+
+@media (min-width: 768px) {
+  .welcome-section {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,12 @@
 {
     "version": 3,
-    "mappings": "AECK,AAAD,+BAAyB,CAAC;EACtB,OAAO,EAAE,SAAS;CAKrB;;ADYD,MAAM,EAAE,SAAS,EAAE,KAAK;EClBvB,AAAD,+BAAyB,CAAC;IAIlB,OAAO,EAAE,SAAS;GAEzB",
+    "mappings": "AEAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;EACf,kBAAkB,EAAE,IAAI;CAC3B;;AAED,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,CAAC;CACZ;;ACZD,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;CACT;;ACHD,AAAA,gBAAgB,CAAC;EACb,gBAAgB,EAAE,MAAM;CAM3B;;AHMG,MAAM,EAAE,SAAS,EAAE,KAAK;EGb5B,AAAA,gBAAgB,CAAC;IAIT,MAAM,EAAE,KAAK;GAGpB",
     "sources": [
         "../assets/style/style.scss",
         "../assets/style/base/_mixin.scss",
-        "../assets/style/base/_global.scss"
+        "../assets/style/base/_global.scss",
+        "../assets/style/modules/_navbar.scss",
+        "../assets/style/modules/_welcome-section.scss"
     ],
     "names": [],
     "file": "style.css"
